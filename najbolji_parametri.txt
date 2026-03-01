@@ -1,0 +1,1091 @@
+Model: DecisionTreeClassifier(max_depth=5, min_samples_leaf=2, min_samples_split=5)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8969
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 2
+   min_samples_split: 5
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, max_features='log2', n_estimators=200)
+Podaci: Random Forest
+Best CV AUC: 0.9044
+Best Parameters:
+   max_depth: 20
+   max_features: log2
+   min_samples_leaf: 1
+   min_samples_split: 2
+   n_estimators: 200
+----------------------------------------
+Model: MLPClassifier(activation='tanh', alpha=0.01, learning_rate='adaptive',
+              max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8935
+Best Parameters:
+   activation: tanh
+   alpha: 0.01
+   hidden_layer_sizes: (100,)
+   learning_rate: adaptive
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB(var_smoothing=1e-06)
+Podaci: NB
+Best CV AUC: 0.8586
+Best Parameters:
+   var_smoothing: 1e-06
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=9)
+Podaci: KNN
+Best CV AUC: 0.8649
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 9
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=0.01, max_iter=1000, solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8829
+Best Parameters:
+   C: 0.01
+   class_weight: None
+   max_iter: 1000
+   penalty: l2
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8467
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.9057
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------2---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(max_depth=5)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8936
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 1
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, max_features='log2', min_samples_leaf=4,
+                       min_samples_split=5, n_estimators=300)
+Podaci: Random Forest
+Best CV AUC: 0.8963
+Best Parameters:
+   max_depth: 20
+   max_features: log2
+   min_samples_leaf: 4
+   min_samples_split: 5
+   n_estimators: 300
+----------------------------------------
+Model: MLPClassifier(hidden_layer_sizes=(100, 50), learning_rate='adaptive',
+              max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8976
+Best Parameters:
+   activation: relu
+   alpha: 0.0001
+   hidden_layer_sizes: (100, 50)
+   learning_rate: adaptive
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: NB
+Best CV AUC: 0.8543
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=15)
+Podaci: KNN
+Best CV AUC: 0.8934
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 15
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=100, max_iter=1000, penalty='l1', solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8823
+Best Parameters:
+   C: 100
+   class_weight: None
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8884
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.8, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              feature_weights=None, gamma=None, grow_policy=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=0.1, max_bin=None, max_cat_threshold=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=3,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, multi_strategy=None, n_estimators=100,
+              n_jobs=None, num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.8991
+Best Parameters:
+   colsample_bytree: 0.8
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------3---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(max_depth=5, min_samples_leaf=2, min_samples_split=5)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8969
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 2
+   min_samples_split: 5
+----------------------------------------
+Model: DecisionTreeClassifier(max_depth=5, min_samples_split=10)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8968
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 1
+   min_samples_split: 10
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, max_features='log2', min_samples_leaf=2,
+                       min_samples_split=5)
+Podaci: Random Forest
+Best CV AUC: 0.9043
+Best Parameters:
+   max_depth: 20
+   max_features: log2
+   min_samples_leaf: 2
+   min_samples_split: 5
+   n_estimators: 100
+----------------------------------------
+Model: MLPClassifier(activation='tanh', hidden_layer_sizes=(50,), max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8914
+Best Parameters:
+   activation: tanh
+   alpha: 0.0001
+   hidden_layer_sizes: (50,)
+   learning_rate: constant
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB(var_smoothing=1e-06)
+Podaci: NB
+Best CV AUC: 0.8586
+Best Parameters:
+   var_smoothing: 1e-06
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=9)
+Podaci: KNN
+Best CV AUC: 0.8649
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 9
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=0.01, max_iter=1000, solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8829
+Best Parameters:
+   C: 0.01
+   class_weight: None
+   max_iter: 1000
+   penalty: l2
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8467
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.9057
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------4---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(max_depth=5, min_samples_leaf=2)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8969
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 2
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=30, max_features='log2', min_samples_leaf=2,
+                       n_estimators=300)
+Podaci: Random Forest
+Best CV AUC: 0.9049
+Best Parameters:
+   max_depth: 30
+   max_features: log2
+   min_samples_leaf: 2
+   min_samples_split: 2
+   n_estimators: 300
+----------------------------------------
+Model: MLPClassifier(activation='tanh', hidden_layer_sizes=(100, 50),
+              learning_rate='adaptive', max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.9015
+Best Parameters:
+   activation: tanh
+   alpha: 0.0001
+   hidden_layer_sizes: (100, 50)
+   learning_rate: adaptive
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: NB
+Best CV AUC: 0.8309
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=11)
+Podaci: KNN
+Best CV AUC: 0.8677
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 11
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=100, max_iter=1000, solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8818
+Best Parameters:
+   C: 100
+   class_weight: None
+   max_iter: 1000
+   penalty: l2
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8827
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.9056
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 200
+   subsample: 0.8
+----------------------------------------5  LOG---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(max_depth=5, min_samples_leaf=2, min_samples_split=10)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8968
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 2
+   min_samples_split: 10
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, max_features='log2', min_samples_leaf=4)
+Podaci: Random Forest
+Best CV AUC: 0.9046
+Best Parameters:
+   max_depth: 20
+   max_features: log2
+   min_samples_leaf: 4
+   min_samples_split: 2
+   n_estimators: 100
+----------------------------------------
+Model: MLPClassifier(alpha=0.01, hidden_layer_sizes=(50,), learning_rate='adaptive',
+              max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8967
+Best Parameters:
+   activation: relu
+   alpha: 0.01
+   hidden_layer_sizes: (50,)
+   learning_rate: adaptive
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB(var_smoothing=1e-06)
+Podaci: NB
+Best CV AUC: 0.7194
+Best Parameters:
+   var_smoothing: 1e-06
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=11, weights='distance')
+Podaci: KNN
+Best CV AUC: 0.8899
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 11
+   weights: distance
+----------------------------------------
+Model: LogisticRegression(C=0.01, max_iter=1000, penalty='l1', solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8906
+Best Parameters:
+   C: 0.01
+   class_weight: None
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8958
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.9057
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------6 SCA---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(max_depth=5, min_samples_leaf=2)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8969
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 2
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, min_samples_split=5, n_estimators=200)
+Podaci: Random Forest
+Best CV AUC: 0.9045
+Best Parameters:
+   max_depth: 20
+   max_features: sqrt
+   min_samples_leaf: 1
+   min_samples_split: 5
+   n_estimators: 200
+----------------------------------------
+Model: MLPClassifier(alpha=0.01, hidden_layer_sizes=(50,), max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8923
+Best Parameters:
+   activation: relu
+   alpha: 0.01
+   hidden_layer_sizes: (50,)
+   learning_rate: constant
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: NB
+Best CV AUC: 0.7932
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=11)
+Podaci: KNN
+Best CV AUC: 0.8781
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 11
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=0.001, class_weight='balanced', max_iter=1000,
+                   penalty='l1', solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8868
+Best Parameters:
+   C: 0.001
+   class_weight: balanced
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, gamma=0.1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8919
+Best Parameters:
+   C: 1
+   gamma: 0.1
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.9057
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------7  MM---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(max_depth=5)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8969
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 1
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=30, min_samples_leaf=2, n_estimators=300)
+Podaci: Random Forest
+Best CV AUC: 0.9043
+Best Parameters:
+   max_depth: 30
+   max_features: sqrt
+   min_samples_leaf: 2
+   min_samples_split: 2
+   n_estimators: 300
+----------------------------------------
+Model: MLPClassifier(activation='tanh', hidden_layer_sizes=(50, 50), max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8970
+Best Parameters:
+   activation: tanh
+   alpha: 0.0001
+   hidden_layer_sizes: (50, 50)
+   learning_rate: constant
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: NB
+Best CV AUC: 0.7932
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='manhattan', n_neighbors=11, weights='distance')
+Podaci: KNN
+Best CV AUC: 0.8602
+Best Parameters:
+   metric: manhattan
+   n_neighbors: 11
+   weights: distance
+----------------------------------------
+Model: LogisticRegression(C=100, max_iter=1000, penalty='l1', solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8813
+Best Parameters:
+   C: 100
+   class_weight: None
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8773
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.9057
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------8  PCA ---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(criterion='entropy', max_depth=5)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8432
+Best Parameters:
+   criterion: entropy
+   max_depth: 5
+   min_samples_leaf: 1
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=300)
+Podaci: Random Forest
+Best CV AUC: 0.8400
+Best Parameters:
+   max_depth: 20
+   max_features: sqrt
+   min_samples_leaf: 4
+   min_samples_split: 5
+   n_estimators: 300
+----------------------------------------
+Model: MLPClassifier(activation='tanh', hidden_layer_sizes=(50, 50), max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8453
+Best Parameters:
+   activation: tanh
+   alpha: 0.0001
+   hidden_layer_sizes: (50, 50)
+   learning_rate: constant
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: NB
+Best CV AUC: 0.8269
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=15)
+Podaci: KNN
+Best CV AUC: 0.8416
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 15
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=0.1, max_iter=1000, penalty='l1', solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8441
+Best Parameters:
+   C: 0.1
+   class_weight: None
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=0.1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8453
+Best Parameters:
+   C: 0.1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.8, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              feature_weights=None, gamma=None, grow_policy=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=0.01, max_bin=None, max_cat_threshold=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=3,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, multi_strategy=None, n_estimators=100,
+              n_jobs=None, num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.8453
+Best Parameters:
+   colsample_bytree: 0.8
+   learning_rate: 0.01
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------9 ST + PCA---------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(criterion='entropy', max_depth=5, min_samples_leaf=4,
+                       min_samples_split=10)
+Podaci: Stablo odlucivanja
+Best CV AUC: 0.8571
+Best Parameters:
+   criterion: entropy
+   max_depth: 5
+   min_samples_leaf: 4
+   min_samples_split: 10
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, min_samples_leaf=4, min_samples_split=10,
+                       n_estimators=300)
+Podaci: Random Forest
+Best CV AUC: 0.8521
+Best Parameters:
+   max_depth: 20
+   max_features: sqrt
+   min_samples_leaf: 4
+   min_samples_split: 10
+   n_estimators: 300
+----------------------------------------
+Model: MLPClassifier(hidden_layer_sizes=(50, 50), learning_rate='adaptive',
+              max_iter=500)
+Podaci: MLP
+Best CV AUC: 0.8576
+Best Parameters:
+   activation: relu
+   alpha: 0.0001
+   hidden_layer_sizes: (50, 50)
+   learning_rate: adaptive
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: NB
+Best CV AUC: 0.8425
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=15)
+Podaci: KNN
+Best CV AUC: 0.8555
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 15
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=10, max_iter=1000, penalty='l1', solver='liblinear')
+Podaci: LR
+Best CV AUC: 0.8528
+Best Parameters:
+   C: 10
+   class_weight: None
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: SVM
+Best CV AUC: 0.8520
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.01, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: XGB
+Best CV AUC: 0.8578
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.01
+   max_depth: 5
+   n_estimators: 200
+   subsample: 0.8
+
+--------------------------------------------------------------------------------------------------------------------------
+Model: DecisionTreeClassifier(criterion='entropy', max_depth=5, min_samples_leaf=4)
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8452
+Best Parameters:
+   criterion: entropy
+   max_depth: 5
+   min_samples_leaf: 4
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=20, max_features='log2', min_samples_leaf=4,
+                       min_samples_split=10, n_estimators=200)
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8409
+Best Parameters:
+   max_depth: 20
+   max_features: log2
+   min_samples_leaf: 4
+   min_samples_split: 10
+   n_estimators: 200
+----------------------------------------
+Model: MLPClassifier(hidden_layer_sizes=(50,), max_iter=500)
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8453
+Best Parameters:
+   activation: relu
+   alpha: 0.0001
+   hidden_layer_sizes: (50,)
+   learning_rate: constant
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8453
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='manhattan', n_neighbors=15)
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8432
+Best Parameters:
+   metric: manhattan
+   n_neighbors: 15
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=0.001, max_iter=1000, penalty='l1', solver='liblinear')
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8453
+Best Parameters:
+   C: 0.001
+   class_weight: None
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=0.1, probability=True)
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8453
+Best Parameters:
+   C: 0.1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.8, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              feature_weights=None, gamma=None, grow_policy=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=0.01, max_bin=None, max_cat_threshold=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=3,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, multi_strategy=None, n_estimators=100,
+              n_jobs=None, num_parallel_tree=None, ...)
+Podaci:  MinMaxScaler + PCA
+Best CV AUC: 0.8453
+Best Parameters:
+   colsample_bytree: 0.8
+   learning_rate: 0.01
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------
+Model: DecisionTreeClassifier(max_depth=5)
+Podaci: Originalni podaci
+Best CV AUC: 0.8969
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 1
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=30, min_samples_leaf=2, n_estimators=300)
+Podaci: Originalni podaci
+Best CV AUC: 0.9047
+Best Parameters:
+   max_depth: 30
+   max_features: sqrt
+   min_samples_leaf: 2
+   min_samples_split: 2
+   n_estimators: 300
+----------------------------------------
+Model: MLPClassifier(activation='tanh', alpha=0.001, hidden_layer_sizes=(50,),
+              learning_rate='adaptive', max_iter=500)
+Podaci: Originalni podaci
+Best CV AUC: 0.8928
+Best Parameters:
+   activation: tanh
+   alpha: 0.001
+   hidden_layer_sizes: (50,)
+   learning_rate: adaptive
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB(var_smoothing=1e-06)
+Podaci: Originalni podaci
+Best CV AUC: 0.8586
+Best Parameters:
+   var_smoothing: 1e-06
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=9)
+Podaci: Originalni podaci
+Best CV AUC: 0.8649
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 9
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=0.01, max_iter=1000, solver='liblinear')
+Podaci: Originalni podaci
+Best CV AUC: 0.8829
+Best Parameters:
+   C: 0.01
+   class_weight: None
+   max_iter: 1000
+   penalty: l2
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: Originalni podaci
+Best CV AUC: 0.8467
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: Originalni podaci
+Best CV AUC: 0.9057
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------
+Model: DecisionTreeClassifier(max_depth=5)
+Podaci: BEST5 podaci
+Best CV AUC: 0.8936
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 1
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=30, max_features='log2', min_samples_leaf=4,
+                       min_samples_split=5)
+Podaci: BEST5 podaci
+Best CV AUC: 0.8959
+Best Parameters:
+   max_depth: 30
+   max_features: log2
+   min_samples_leaf: 4
+   min_samples_split: 5
+   n_estimators: 100
+----------------------------------------
+Model: MLPClassifier(alpha=0.001, hidden_layer_sizes=(50, 50), max_iter=500)
+Podaci: BEST5 podaci
+Best CV AUC: 0.8966
+Best Parameters:
+   activation: relu
+   alpha: 0.001
+   hidden_layer_sizes: (50, 50)
+   learning_rate: constant
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: BEST5 podaci
+Best CV AUC: 0.8543
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=15)
+Podaci: BEST5 podaci
+Best CV AUC: 0.8934
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 15
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=100, max_iter=1000, penalty='l1', solver='liblinear')
+Podaci: BEST5 podaci
+Best CV AUC: 0.8823
+Best Parameters:
+   C: 100
+   class_weight: None
+   max_iter: 1000
+   penalty: l1
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: BEST5 podaci
+Best CV AUC: 0.8884
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.8, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              feature_weights=None, gamma=None, grow_policy=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=0.1, max_bin=None, max_cat_threshold=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=3,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, multi_strategy=None, n_estimators=100,
+              n_jobs=None, num_parallel_tree=None, ...)
+Podaci: BEST5 podaci
+Best CV AUC: 0.8991
+Best Parameters:
+   colsample_bytree: 0.8
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 100
+   subsample: 0.8
+----------------------------------------
+Model: DecisionTreeClassifier(max_depth=5)
+Podaci: BEST10 podaci
+Best CV AUC: 0.8969
+Best Parameters:
+   criterion: gini
+   max_depth: 5
+   min_samples_leaf: 1
+   min_samples_split: 2
+----------------------------------------
+Model: RandomForestClassifier(max_depth=30)
+Podaci: BEST10 podaci
+Best CV AUC: 0.9054
+Best Parameters:
+   max_depth: 30
+   max_features: sqrt
+   min_samples_leaf: 1
+   min_samples_split: 2
+   n_estimators: 100
+----------------------------------------
+Model: MLPClassifier(max_iter=500)
+Podaci: BEST10 podaci
+Best CV AUC: 0.9003
+Best Parameters:
+   activation: relu
+   alpha: 0.0001
+   hidden_layer_sizes: (100,)
+   learning_rate: constant
+   max_iter: 500
+   solver: adam
+----------------------------------------
+Model: GaussianNB()
+Podaci: BEST10 podaci
+Best CV AUC: 0.8309
+Best Parameters:
+   var_smoothing: 1e-09
+----------------------------------------
+Model: KNeighborsClassifier(metric='euclidean', n_neighbors=11)
+Podaci: BEST10 podaci
+Best CV AUC: 0.8677
+Best Parameters:
+   metric: euclidean
+   n_neighbors: 11
+   weights: uniform
+----------------------------------------
+Model: LogisticRegression(C=100, max_iter=1000, solver='liblinear')
+Podaci: BEST10 podaci
+Best CV AUC: 0.8818
+Best Parameters:
+   C: 100
+   class_weight: None
+   max_iter: 1000
+   penalty: l2
+   solver: liblinear
+----------------------------------------
+Model: SVC(C=1, probability=True)
+Podaci: BEST10 podaci
+Best CV AUC: 0.8827
+Best Parameters:
+   C: 1
+   gamma: scale
+   kernel: rbf
+----------------------------------------
+Model: XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None, colsample_bytree=1,
+              device=None, early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, feature_weights=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=None,
+              num_parallel_tree=None, ...)
+Podaci: BEST10 podaci
+Best CV AUC: 0.9056
+Best Parameters:
+   colsample_bytree: 1
+   learning_rate: 0.1
+   max_depth: 3
+   n_estimators: 200
+   subsample: 0.8
+----------------------------------------
